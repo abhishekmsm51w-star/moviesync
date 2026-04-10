@@ -1,16 +1,46 @@
-# React + Vite
+# 🎬 MovieSync
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, real-time venue experience application designed to keep cinema attendees updated instantly on live movie schedules and facility waiting times. Featuring a stunning premium dark aesthetic, dynamic glow effects, and live data simulation.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Real-Time Data Simulation:** Experience live, fluctuating wait times for washrooms and food courts directly on the dashboard.
+- **Premium UI/UX:** Built with high-end glassmorphism, responsive micro-animations, and modern Google Fonts (Inter & Outfit).
+- **Cloud-Native Ready:** Designed to be containerized and deployed natively to Google Cloud Run as a stateless, highly scalable service.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 How to Clone & Run Locally
 
-## React Compiler
+To get this project running on your own machine:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abhishekmsm51w-star/moviesync.git
+   ```
+2. **Navigate into the project directory:**
+   ```bash
+   cd moviesync
+   ```
+3. **Install the required dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   *Your app will be live at `http://localhost:5173/` by default.*
 
-## Expanding the ESLint configuration
+## ☁️ Google Cloud Run Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project includes a perfectly optimized multi-stage `Dockerfile` making it plug-and-play for Google Cloud Run on port `8080`.
+
+To deploy straight from the Google Cloud Shell:
+```bash
+gcloud run deploy moviesync --source . --port 8080 --allow-unauthenticated --region us-central1
+```
+
+---
+
+<div align="center">
+  <b>Made with ❤️ by Dr. Abhishek 🚀</b><br>
+  <i>Future of Cloud is Here</i>
+</div>
