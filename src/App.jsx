@@ -135,6 +135,27 @@ function App() {
           </div>
         </section>
       </main>
+
+      <footer className="creator-banner">
+        <div className="banner-content">
+          <div className="banner-title">Dr. Abhishek</div>
+          <div className="banner-subtitle">Future of Cloud is Here</div>
+          
+          <div className="social-links">
+            <div className="social-item">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"></path></svg>
+              drabhishek.5460
+            </div>
+            <div className="social-item">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path></svg>
+              @DAbhishek5460
+            </div>
+          </div>
+        </div>
+        <div className="banner-graphic">
+          <div className="built-by-badge">Built by Dr. Abhishek</div>
+        </div>
+      </footer>
     </div>
   );
 }
